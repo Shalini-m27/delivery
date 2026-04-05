@@ -1,0 +1,12 @@
+name: adaptive-delivery-env
+version: 1.0
+
+observation_space:
+  type: vector
+  description: agent position, fuel, package & delivery states
+
+action_space:
+  type: discrete
+  actions: [0,1,2,3]
+
+reward_range: [0.0, 1.0]
